@@ -1,0 +1,15 @@
+h2 {
+	color: red;
+}
+
+ul {
+list-style-type:none;
+margin:0;
+padding:0;
+}
+
+a
+{
+display:block;
+width:60px;
+}
