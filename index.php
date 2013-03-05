@@ -9,14 +9,16 @@
 
 <body>
 	<h2>Nebraska Cornhuskers</h2>
-		<div>
+		<nav>
+		<div class="jimgMenu">
   			<ul>
     			<li class="home"><a href="./">Nebraska Cornhuskers</a></li>
-   				<li><a href="#">Team Info.</a></li>
-    			<li><a href="#">Roster</a></li>
-    			<li><a href="#">Schedule</a></li>
-    			<li><a href="#">Add</a></li>
+   				<li class="team"><a href="#">Team Info.</a></li>
+    			<li class="roster"><a href="#">Roster</a></li>
+    			<li class="schedule"><a href="#">Schedule</a></li>
+    			<li class="add"><a href="#">Add</a></li>
   			</ul>
 		</div>
+		</nav>
 </body>
 
