@@ -18,5 +18,20 @@
     			<li><a href="#">Add</a></li>
   			</ul>
 		</div>
+		
+		<div id="wrapper" class="container">
+			<header>
+				<?php include('layout/header.php')?>
+			</header>
+			<nav>
+				<?php include('layout/nav.php')?>
+			</nav>
+			<section role="main">
+				<?php include('layout/main.php')?>
+			</section>
+			<footer>
+				<?php include('layout/footer.php')?> <!-- All content in the file listed -->
+			</footer>
+		</div>
 </body>
 
