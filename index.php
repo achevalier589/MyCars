@@ -8,20 +8,6 @@
 </head>
 
 <body>
-	<h2>Nebraska Cornhuskers</h2>
-		<nav>
-		<div class="jimgMenu">
-  			<ul>
-    			<li class="home"><a href="./">Nebraska Cornhuskers</a></li>
-   				<li class="team"><a href="#">Team Info.</a></li>
-    			<li class="roster"><a href="#">Roster</a></li>
-    			<li class="schedule"><a href="#">Schedule</a></li>
-    			<li class="add"><a href="#">Add</a></li>
-  			</ul>
-		</div>
-
-		</nav>
-		
 		<div id="wrapper" class="container">
 			<header>
 				<?php include('layout/header.php')?>
@@ -32,9 +18,24 @@
 			<section role="main">
 				<?php include('layout/main.php')?>
 			</section>
-			<footer>
+		</div>
+		
+		<nav>
+		<div class="jimgMenu">
+  			<ul>
+    			<li class="home"><a href="./">MyCars</a></li>
+   				<li class="team"><a href="#">Favorites</a></li>
+    			<li class="roster"><a href="#">Brands</a></li>
+    			<li class="schedule"><a href="#">Specs</a></li>
+    			<li class="add"><a href="#">Add</a></li>
+  			</ul>
+		</div>
+		</nav>
+		
+		<div>
+		<footer>
 				<?php include('layout/footer.php')?> <!-- All content in the file listed -->
-			</footer>
+		</footer>
 		</div>
 </body>
 
