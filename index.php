@@ -1,14 +1,18 @@
+
 <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.css" />
 <link rel="stylesheet" type="text/css" href="styles.css" />
 <head>
-	<link href="css/jimgMenu.css" rel="stylesheet" type="text/css" />
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/jquery-easing-1.3.pack.js"></script>
-	<script type="text/javascript" src="js/jquery-easing-compatibility.1.2.pack.js"></script>
 </head>
 
 <body>
-		<div id="wrapper" class="container">
+		<ul class=navigation-bar>
+  			 <li><a href="./">MyCars</a></li>
+  			 <li><a href="#">Favorites</a></li>
+ 			 <li><a href="#">Brands</a></li>
+ 			 <li><a href="#">Specs</a></li>
+   			 <li><a href="#">Add</a></li>
+		</ul><div id="wrapper" class="container">
+			
 			<header>
 				<?php include('layout/header.php')?>
 			</header>
@@ -20,21 +24,9 @@
 			</section>
 		</div>
 		
-		<nav>
-		<div class="jimgMenu">
-  			<ul>
-    			<li class="home"><a href="./">MyCars</a></li>
-   				<li class="team"><a href="#">Favorites</a></li>
-    			<li class="roster"><a href="#">Brands</a></li>
-    			<li class="schedule"><a href="#">Specs</a></li>
-    			<li class="add"><a href="#">Add</a></li>
-  			</ul>
-		</div>
-		</nav>
-		
 		<div>
 		<footer>
-				<?php include('layout/footer.php')?> <!-- All content in the file listed -->
+				<?php include('layout/footer.php')?>
 		</footer>
 		</div>
 </body>
