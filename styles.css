@@ -1,11 +1,4 @@
-li {
-float:left;
-}
-a {
-display:block;
-width:60px;
-}
-.jimgMenu {
+{
 	position:relative;
 	margin: 0px 0px 0px 50px;
 	padding: 0px;
@@ -13,7 +6,7 @@ width:60px;
 	height:200px;
 	overflow: hidden;
 }
-.jimgMenu ul {
+ul {
 	list-style: none;
 	margin: 0px;
 	padding: 0px;
@@ -21,35 +14,35 @@ width:60px;
 	height: 200px;
 	position: relative;
 	}	
-.jimgMenu ul li {
+ul li {
 	width: 95px;
 	float: left;
 	display: block;
 	overflow: hidden;
 }
-.jimgMenu ul li a {
+ul li a {
 	text-indent: -1000px;
 	background:#fff repeat scroll 0%;
-	border-right: 2px solid #fff;
+	border-right: 2px solid #000;
 	cursor:pointer;
 	display:block;
 	overflow: hidden;
 	height: 200px;
 }
-.jimgMenu ul li#landscapes a {
-	background: url(images/landscapes.jpg) repeat scroll 0%; 
+ul li#home a {
+	background: url("images/nebraska-wp-1.jpg") repeat scroll 0%; 
 }
-.jimgMenu ul li#people a {
+ul li#people a {
 	background: url(images/people.jpg) repeat scroll 0%;
 }
 
-.jimgMenu ul li#nature a {
+ul li#nature a {
 	background: url(images/nature.jpg) repeat scroll 0%; 
 }
-.jimgMenu ul li#abstract a {
+ul li#abstract a {
 	background: url(images/abstract.jpg) repeat scroll 0%;
 }
-.jimgMenu ul li#urban a {
+ul li#urban a {
 	background: url(images/urban.jpg) repeat scroll 0%;
 	border-right-style: none;
 }

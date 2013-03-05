@@ -8,14 +8,15 @@
 </head>
 
 <body>
-	<div class="jimgMenu">
-  		<ul>
-    		<li><a href="#">Landscapes</a></li>
-   			<li><a href="#">People</a></li>
-    		<li><a href="#">Nature</a></li>
-    		<li><a href="#">Abstract</a></li>
-    		<li><a href="#">Urban</a></li>
-  		</ul>
-	</div>
+	<h2>Nebraska Cornhuskers</h2>
+		<div>
+  			<ul>
+    			<li class="home"><a href="./">Nebraska Cornhuskers</a></li>
+   				<li><a href="#">Team Info.</a></li>
+    			<li><a href="#">Roster</a></li>
+    			<li><a href="#">Schedule</a></li>
+    			<li><a href="#">Add</a></li>
+  			</ul>
+		</div>
 </body>
 
