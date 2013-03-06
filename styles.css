@@ -2,23 +2,24 @@ body {
 	background-image: url("images/Lam.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
+	margin:0px;
+	padding: 0px;
 ;}
 
 ul.navigation-bar {
    list-style-type: none;
    background-image: -webkit-linear-gradient(top, silver, #000);
-   background-image:    -moz-linear-gradient(top, silver, #000);
-   background-image:     -ms-linear-gradient(top, silver, #000);
-   background-image:         linear-gradient(top, silver, #000);
-   border: 2px solid black;
+   background-image: -moz-linear-gradient(top, silver, #000);
+   background-image: -ms-linear-gradient(top, silver, #000);
+   background-image: linear-gradient(top, silver, #000);
    padding: 0px;
    margin: 0px;
-   background-color: midnightblue; /* IE6...IE9 */
-   *line-height: 3.2em; /* IE6,IE7 */
+   background-color: midnightblue;
+   *line-height: 3.2em;
    }
 ul.navigation-bar li {
    display: table-cell;
-   *display: inline; /* IE6,IE7 */
+   *display: inline; 
    }
 ul.navigation-bar li.current, ul.navigation-bar li:hover {
    background-color: rgba(255, 255, 255, 0.2);
@@ -37,4 +38,7 @@ h1 {
 	color: aqua;
 	text-decoration: none;
 	list-style-type: none;
-} 
+}
+footer {
+	color: white;
+}

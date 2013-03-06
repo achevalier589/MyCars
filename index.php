@@ -28,4 +28,3 @@ require('functions.php');*/
 		</footer>
 		</div>
 </body>
-
