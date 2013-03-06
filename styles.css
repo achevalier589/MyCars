@@ -6,11 +6,11 @@ body {
 
 ul.navigation-bar {
    list-style-type: none;
-   background-image: -webkit-linear-gradient(top, silver, #525051);
-   background-image:    -moz-linear-gradient(top, silver, #525051);
-   background-image:     -ms-linear-gradient(top, silver, #525051);
-   background-image:         linear-gradient(top, silver, #525051);
-   border: 2px solid dimgray;
+   background-image: -webkit-linear-gradient(top, silver, #000);
+   background-image:    -moz-linear-gradient(top, silver, #000);
+   background-image:     -ms-linear-gradient(top, silver, #000);
+   background-image:         linear-gradient(top, silver, #000);
+   border: 2px solid black;
    padding: 0px;
    margin: 0px;
    background-color: midnightblue; /* IE6...IE9 */
@@ -32,3 +32,9 @@ ul.navigation-bar li a {
    border-right: 2px solid dimgray;
    padding: 15px 25px; /* sets button size */
    }
+   
+h1 {
+	color: aqua;
+	text-decoration: none;
+	list-style-type: none;
+} 

@@ -1,7 +1,7 @@
 <?php
 
-//Import functions
-require('functions.php');
+/* //Import functions
+require('functions.php'); */
 ?>
 <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.css" />
 <link rel="stylesheet" type="text/css" href="styles.css" />
@@ -9,13 +9,7 @@ require('functions.php');
 </head>
 
 <body>
-		<ul class=navigation-bar>
-  			 <li><a href="./">MyCars</a></li>
-  			 <li><a href="#">Favorites</a></li>
- 			 <li><a href="#">Brands</a></li>
- 			 <li><a href="#">Specs</a></li>
-   			 <li><a href="#">Add</a></li>
-		</ul><div id="wrapper" class="container">
+		<div id="wrapper" class="container">
 			
 			<header>
 				<?php include('layout/header.php')?>
