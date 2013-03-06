@@ -1,7 +1,6 @@
 <ul class=navigation-bar>
   	<li><a href="./">MyCars</a></li>
-  	<li><a href="#">Favorites</a></li>
- 	<li><a href="#">Brands</a></li>
- 	<li><a href="#">Specs</a></li>
-   	<li><a href="#">Add</a></li>
+  	<li><a href="./pages/favorites.php">Favorites</a></li>
+ 	<li><a href="./pages/brands.php">Brands</a></li>
+   	<li><a href="./pages/form_add_car.php">Add</a></li>
 </ul>
