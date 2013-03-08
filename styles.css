@@ -42,3 +42,8 @@ h1 {
 footer {
 	color: white;
 }
+
+ul.cars li {
+	text-decoration: none;
+	list-style-type: none;
+}
