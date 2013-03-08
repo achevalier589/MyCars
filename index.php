@@ -3,9 +3,11 @@
 /*Import functions
 require('functions.php');*/
 ?>
+<html>
+<head>
 <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.css" />
 <link rel="stylesheet" type="text/css" href="styles.css" />
-<head>
+
 </head>
 
 <body>
@@ -28,3 +30,4 @@ require('functions.php');*/
 		</footer>
 		</div>
 </body>
+</html>

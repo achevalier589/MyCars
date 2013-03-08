@@ -4,7 +4,11 @@ body {
 	background-size: 100%;
 	margin:0px;
 	padding: 0px;
-;}
+	color:white;
+	font-size:18px;
+	}
+	
+
 
 ul.navigation-bar {
    list-style-type: none;
@@ -16,6 +20,7 @@ ul.navigation-bar {
    margin: 0px;
    background-color: midnightblue;
    *line-height: 3.2em;
+   font-size:16px;
    }
 ul.navigation-bar li {
    display: table-cell;
@@ -35,15 +40,45 @@ ul.navigation-bar li a {
    }
    
 h1 {
-	color: aqua;
+	color: #21C210;
 	text-decoration: none;
 	list-style-type: none;
+	font-size:35px;
 }
+
 footer {
 	color: white;
 }
 
+
 ul.cars li {
 	text-decoration: none;
 	list-style-type: none;
+}
+table {
+	border-collapse:collapse;
+	border:1px solid green;
+}
+
+table thead td {
+	border-right:1px solid green;
+	font-size:18px;
+	padding:1px 4px 1px 2px;
+}
+
+table thead th {
+	background-color:black;
+	text-align:left;
+	font-size:22px;
+	padding:8px 16px 4px 6px;
+	color:white;
+	border-bottom:1px solid green;
+}
+
+table tbody td {
+	padding:4px 4px 4px 6px;
+}
+
+table tbody tr:nth-child(2n+1) td {
+	background-color:#dedede;
 }
