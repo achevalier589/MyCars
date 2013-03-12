@@ -227,7 +227,13 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #333333;
-  background-color: #ffffff;
+  background-color: #fafafa;
+  background-image: -moz-linear-gradient(top, #FFE8E8, white);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#FFE8E8), to(white));
+  background-image: -webkit-linear-gradient(top, #FFE8E8, white);
+  background-image: -o-linear-gradient(top, #FFE8E8, white);
+  background-image: linear-gradient(to bottom, #FFE8E8, white);
+  background-repeat: repeat-x;
 }
 
 a {
@@ -1988,7 +1994,7 @@ table {
   line-height: 20px;
   text-align: left;
   vertical-align: top;
-  border-top: 1px solid #dddddd;
+  border-top: 1px solid #BFBFBF;
 }
 
 .table th {
@@ -2115,7 +2121,7 @@ table {
 
 .table-hover tbody tr:hover td,
 .table-hover tbody tr:hover th {
-  background-color: #f5f5f5;
+  background-color: #E8F4FF;
 }
 
 table td[class*="span"],
@@ -4299,11 +4305,11 @@ input[type="submit"].btn.btn-mini {
   padding-right: 20px;
   padding-left: 20px;
   background-color: #fafafa;
-  background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f2f2f2));
-  background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
-  background-image: -o-linear-gradient(top, #ffffff, #f2f2f2);
-  background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
+  background-image: -moz-linear-gradient(top, #FFE8E8, #E0E0E0);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#FFE8E8), to(#E0E0E0));
+  background-image: -webkit-linear-gradient(top, #FFE8E8, #E0E0E0);
+  background-image: -o-linear-gradient(top, #FFE8E8, #E0E0E0);
+  background-image: linear-gradient(to bottom, #FFE8E8, #E0E0E0);
   background-repeat: repeat-x;
   border: 1px solid #d4d4d4;
   -webkit-border-radius: 4px;

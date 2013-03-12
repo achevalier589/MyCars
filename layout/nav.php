@@ -1,6 +1,9 @@
-<ul class=navigation-bar>
-  	<li><a href="./pages/list_cars.php">MyCars</a></li>
-  	<li><a href="./pages/favorites.php">Favorites</a></li>
- 	<li><a href="./pages/brands.php">Brands</a></li>
-   	<li><a href="./pages/form_add_car.php">Add</a></li>
-</ul>
+<div class="navbar">
+  <div class="navbar-inner">
+	<ul class="nav">
+		<li><a href="./">Home</a></li>
+		<li><a href="./?p=list_teams">Teams</a></li>
+		<li><a href="./?p=form_add_team">Add</a></li>
+	</ul>
+	</div>
+</div>

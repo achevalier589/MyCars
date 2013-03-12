@@ -1,1 +1,1 @@
-<p>Copyright &copy; <?php echo date('Y') ?> Alec Chevalier and Ryan Dethlefs
+<p>Copyright &copy; <?php echo date('Y') ?> Computer Topics
