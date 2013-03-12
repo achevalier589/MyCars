@@ -1,21 +1,21 @@
-<h2>Add a Team</h2>
-<form class="form-horizontal" action="actions/add_team.php" method="post">
+<h2>Add a Car</h2>
+<form class="form-horizontal" action="actions/add_Car.php" method="post">
 	<div class="control-group">
-		<label class="control-label" for="team_name">Team Name</label>
+		<label class="control-label" for="car_name">Car Name</label>
 		<div class="controls">
-			<?php echo input('team_name','Add a Team') ?>
+			<?php echo input('car_name','Add a Car') ?>
 		</div>
 	</div>
 	<div class="control-group">
-		<label class="control-label" for="team_record">Record</label>
+		<label class="control-label" for="car_brand">Brand</label>
 		<div class="controls">
-			<?php echo input('team_record','Win/Lose Record') ?>
+			<?php echo input('car_brand','Brand') ?>
 		</div>
 	</div>
 	<div class="control-group">
-		<label class="control-label" for="team_ranking">Ranking</label>
+		<label class="control-label" for="car_speed">Speed</label>
 		<div class="controls">
-			<?php echo input('team_ranking','Ranking') ?>
+			<?php echo input('car_speed','Speed') ?>
 		</div>
 		<div class="form-actions">
 		  <button type="submit" class="btn btn-primary">Add to List</button>

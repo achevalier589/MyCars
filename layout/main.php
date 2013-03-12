@@ -12,7 +12,7 @@ if(isset($_SESSION['message'])) {
 if(isset($_GET['p'])) {
 	$p = $_GET['p'];
 } else {	
-	$p = 'list_teams';
+	$p = 'list_cars';
 }
 
 include("views/$p.php");

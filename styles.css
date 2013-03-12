@@ -1,1 +1,4 @@
-@CHARSET "ISO-8859-1";
+li.cars {
+	font-weight: bold;
+	font-size: large;
+}

@@ -5,25 +5,25 @@
 session_start();
 
 // Read file into array
-$lines = file('../data/teams.csv',FILE_IGNORE_NEW_LINES);
+$lines = file('../data/cars.csv',FILE_IGNORE_NEW_LINES);
 
 // Replace line with new values
-$lines[$_POST['linenum']] = "{$_POST['team_name']},{$_POST['team_record']},{$_POST['team_ranking']}";
+$lines[$_POST['linenum']] = "{$_POST['car_name']},{$_POST['car_brand']},{$_POST['car_speed']}";
 
 // Create the string to write to the file
 $data_string = implode("\n",$lines);
 
 // Write the string to the file, overwriting the current contents\
-$f = fopen('../data/teams.csv','w');
+$f = fopen('../data/cars.csv','w');
 fwrite($f,$data_string);
 fclose($f);
 
 $_SESSION['message'] = array(
-		'text' => 'Your team has been edited.',
+		'text' => 'Your car has been edited.',
 		'type' => 'info'
 );
 
 // Redirect to the main page\
-header('location:../?p=list_teams');
+header('location:../?p=list_cars');
 
 ?>
